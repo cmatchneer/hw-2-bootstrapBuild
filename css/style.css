@@ -1,0 +1,63 @@
+body {
+    background-color: darkgrey;
+}
+
+img {
+    width: 106%;
+    height: 93%;
+    margin-top: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    background-color: black;
+    padding-bottom: 5px;
+    color: gold;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    border: 1px solid black;
+}
+
+.nav-item {
+    margin-left: 60%;
+    background-color: darkgoldenrod;
+    border: 2px solid gold;
+}
+
+.nav-item:hover {
+    background-color: floralwhite;
+    border: 2px solid black;
+}
+
+.bg-dark {
+    background: firebrick !important;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: gold !important;
+}
+
+.nav-link:visited {
+    color: darkblue !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.container {
+    padding: 0;
+    background-color: white;
+}
+
+.jumbotron {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: firebrick;
+    border: 1px solid black;
+}
