@@ -4,7 +4,7 @@ body {
 
 img {
     width: 106%;
-    height: 93%;
+    height: 113.5%;
     margin-top: 3px;
 }
 
@@ -22,8 +22,12 @@ p {
     border: 1px solid black;
 }
 
+h5 {
+    text-align: center;
+}
+
 .nav-item {
-    margin-left: 60%;
+    margin-left: 55%;
     background-color: darkgoldenrod;
     border: 2px solid gold;
 }
@@ -60,4 +64,41 @@ p {
     padding: 10px;
     background-color: firebrick;
     border: 1px solid black;
+}
+
+.btn-dark {
+    color: gold !important;
+}
+
+.card {
+    margin-top: 3px;
+    background-color: firebrick;
+}
+
+.card-img-top {
+    height: 250px;
+    border: 1px soild black;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.card-title {
+    border: 1px solid gold;
+    border-radius: 5px;
+    background-color: black;
+    color: gold;
+}
+
+.card-text {
+    background-color: black;
+    border: 1px solid gold;
+    border-radius: 5px;
+    color: gold;
+    padding: 1px;
+}
+
+.btn-primary {
+    background-color: black;
+    border: black;
+    color: gold;
 }
