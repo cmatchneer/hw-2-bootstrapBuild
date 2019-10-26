@@ -1,11 +1,12 @@
 body {
-    background-color: darkgrey;
+    background-color: #1A1A1A;
 }
 
 img {
     width: 106%;
-    height: 113.5%;
-    margin-top: 3px;
+    height: 274px;
+    margin-top: 5px;
+    border: 2px inset gold;
 }
 
 h1 {
@@ -19,15 +20,20 @@ h1 {
 }
 
 p {
-    border: 1px solid black;
+    border: 2px inset gold;
+    background-color: white;
 }
 
 h5 {
     text-align: center;
 }
 
+.navbar {
+    border: 2px inset gold;
+}
+
 .nav-item {
-    margin-left: 55%;
+    margin-left: 65%;
     background-color: darkgoldenrod;
     border: 2px solid gold;
 }
@@ -56,34 +62,49 @@ h5 {
 
 .container {
     padding: 0;
-    background-color: white;
 }
 
 .jumbotron {
     margin-top: 5px;
     padding: 10px;
     background-color: firebrick;
-    border: 1px solid black;
+    border: 2px inset gold;
+}
+
+.display-4 {
+    border: 2px inset gold;
+    margin-bottom: 5px;
+}
+
+.btn {
+    border: 2px inset gold;
 }
 
 .btn-dark {
     color: gold !important;
 }
 
+.btn-dark:hover {
+    background-color: gold !important;
+    color: black !important;
+}
+
 .card {
-    margin-top: 3px;
+    margin: 5px auto;
     background-color: firebrick;
+    border: 2px inset gold;
+    /* width: 500px !important; */
 }
 
 .card-img-top {
     height: 250px;
-    border: 1px soild black;
+    border: 2px inset black;
     border-radius: 5px;
     margin: 0;
 }
 
 .card-title {
-    border: 1px solid gold;
+    border: 2px inset gold;
     border-radius: 5px;
     background-color: black;
     color: gold;
@@ -91,7 +112,7 @@ h5 {
 
 .card-text {
     background-color: black;
-    border: 1px solid gold;
+    border: 2px inset gold;
     border-radius: 5px;
     color: gold;
     padding: 1px;
@@ -99,6 +120,90 @@ h5 {
 
 .btn-primary {
     background-color: black;
-    border: black;
+    border: 2px inset gold;
+    border-radius: 5px;
     color: gold;
+}
+
+.btn-primary:hover {
+    background-color: gold;
+    color: black;
+    border: 3px inset black;
+}
+
+form {
+    background-color: black;
+    border: 2px inset gold;
+    border-radius: 5px;
+}
+
+label {
+    color: gold;
+}
+
+.form-group {
+    border: 2px inset gold;
+    background-color: firebrick;
+    margin: 2px;
+}
+
+.lead {
+    padding: 2px;
+}
+
+.forcedMarginLeft {
+    /* width: 20px; */
+}
+
+@media screen and (max-width:1080px) {
+    .nav-item {
+        margin-left: 50%;
+    }
+    img {
+        width: 110%;
+        height: 304px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    img {
+        height: 334px;
+        width: 110%;
+        margin-top: 5px;
+    }
+    .nav-item {
+        margin-left: 40%;
+    }
+    .card {
+        /* width: 400px !important; */
+    }
+    .forcedMarginLeft {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    img {
+        height: 395px;
+        width: 115%;
+        margin-top: 5px;
+    }
+    .nav-item {
+        margin-left: 25%;
+    }
+    .card {
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .nav-item {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .nav-item {
+        margin-left: 10%;
+    }
 }
