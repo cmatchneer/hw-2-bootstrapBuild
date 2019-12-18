@@ -33,9 +33,9 @@ h5 {
 }
 
 .nav-item {
-    margin-left: 65%;
     background-color: darkgoldenrod;
     border: 2px solid gold;
+    width: 5.5%;
 }
 
 .nav-item:hover {
@@ -157,7 +157,7 @@ label {
 
 @media screen and (max-width:1080px) {
     .nav-item {
-        margin-left: 50%;
+        width: 7.5%;
     }
     img {
         width: 110%;
@@ -172,10 +172,7 @@ label {
         margin-top: 5px;
     }
     .nav-item {
-        margin-left: 40%;
-    }
-    .card {
-        /* width: 400px !important; */
+        width: 8%;
     }
     .forcedMarginLeft {
         width: 100px;
@@ -189,7 +186,7 @@ label {
         margin-top: 5px;
     }
     .nav-item {
-        margin-left: 25%;
+        width: 10.5%;
     }
     .card {
         width: 250px !important;
@@ -198,12 +195,12 @@ label {
 
 @media screen and (max-width:640px) {
     .nav-item {
-        margin-left: 18%;
+        width: 13.5%;
     }
 }
 
 @media screen and (max-width:500px) {
     .nav-item {
-        margin-left: 10%;
+        width: 18%;
     }
 }
