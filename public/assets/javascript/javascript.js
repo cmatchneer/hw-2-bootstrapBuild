@@ -12,5 +12,9 @@ $(document).ready(function() {
             questions: $("#questions").val().trim()
         };
 
+        $.post("/api/email", userInput).then(function(response) {
+            console.log(response);
+        })
+
     })
 })

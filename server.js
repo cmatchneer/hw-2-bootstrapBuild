@@ -20,7 +20,7 @@ app.use(express.json());
 
 require("./routes/htmlRoutes.js")(app);
 // require("./routes/author-api-routes.js")(app);
-// require("./routes/apiRoutes.js")(app);
+require("./routes/apiRoutes.js")(app);
 
 // app.use(routes);
 app.listen(PORT, function() {
