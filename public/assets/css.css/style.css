@@ -7,6 +7,7 @@ img {
     height: 274px;
     margin-top: 5px;
     border: 2px inset gold;
+    border-radius: 25px;
 }
 
 h1 {
@@ -69,6 +70,7 @@ h5 {
     padding: 10px;
     background-color: firebrick;
     border: 2px inset gold;
+    border-radius: 25px;
 }
 
 .display-4 {
