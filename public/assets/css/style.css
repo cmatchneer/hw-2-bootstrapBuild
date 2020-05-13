@@ -29,40 +29,8 @@ h5 {
     text-align: center;
 }
 
-.navbar {
-    /* border: 2px inset gold;
-    width:6.5%; */
-}
-#nav-menu{
-    /* width: 6.5%; */
-}
-
-.nav-item {
-    background-color: darkgoldenrod;
-    border: 2px solid gold;
-    width: 5.5%;
-}
-
-.nav-item:hover {
-    background-color: floralwhite;
-    border: 2px solid black;
-}
-
-.bg-dark {
-    background: firebrick !important;
-}
-
-.nav-link {
-    font-size: 20px;
-    color: gold !important;
-}
-
-.nav-link:visited {
-    color: darkblue !important;
-}
-
-.nav-link:hover {
-    color: black !important;
+#dropdownMenuButton{
+    background-color: firebrick;
 }
 
 .container {
