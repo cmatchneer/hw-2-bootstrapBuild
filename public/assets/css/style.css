@@ -63,6 +63,7 @@ h5 {
 
 .container {
     padding: 0;
+    margin: 0 auto;
 }
 
 .jumbotron {
@@ -153,8 +154,24 @@ label {
     padding: 2px;
 }
 
-.forcedMarginLeft {
-    /* width: 20px; */
+#techSkills{
+    border:5px double black;
+    border-radius: 25px;
+    background-color: gold;
+    padding-top: 10px;
+}
+#softSkills{
+    border:5px double black;
+    border-radius: 25px;
+    background-color: teal;
+    padding-top: 10px;
+    
+}
+#bioPic{
+    margin: 15px auto;
+}
+#bio{
+    margin: 0 auto;
 }
 
 @media screen and (max-width:1080px) {
