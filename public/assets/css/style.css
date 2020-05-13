@@ -30,7 +30,11 @@ h5 {
 }
 
 .navbar {
-    border: 2px inset gold;
+    /* border: 2px inset gold;
+    width:6.5%; */
+}
+#nav-menu{
+    /* width: 6.5%; */
 }
 
 .nav-item {

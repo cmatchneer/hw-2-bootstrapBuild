@@ -1,8 +1,5 @@
 $(document).ready(function() {
-    $(".navbar-toggler").click(function() {
-        $(".collapse").slideToggle(1000);
-
-    })
+    $(".dropdown-toggle").dropdown();
     $("#submit").on("click", function() {
 
         var userInput = {
