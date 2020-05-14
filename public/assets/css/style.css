@@ -29,6 +29,15 @@ p {
 
 h5 {
     text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+label {
+    font-family: 'Mukta', sans-serif;
+}
+
+textarea[type="text"] {
+    font-family: 'Mukta', sans-serif;
 }
 
 #dropdownMenuButton {
