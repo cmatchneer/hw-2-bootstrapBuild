@@ -27,7 +27,7 @@ p {
     font-family: 'Mukta', sans-serif;
 }
 
-h5 {
+h3 {
     text-align: center;
     font-family: 'Teko', sans-serif;
 }
@@ -38,6 +38,18 @@ label {
 
 textarea[type="text"] {
     font-family: 'Mukta', sans-serif;
+}
+
+.portfolio-pics {
+    border-top: 2px inset gold;
+    border-left: 2px inset gold;
+    border-right: 2px inset gold;
+    width: 600px;
+    margin-left: 15px;
+}
+
+.techList {
+    padding-left: 20px;
 }
 
 #dropdownMenuButton {
@@ -124,32 +136,29 @@ textarea[type="text"] {
 }
 
 .card {
-    margin: 5px auto;
+    /* margin: 5px auto; */
     background-color: firebrick;
     border: 2px inset gold;
-    /* width: 500px !important; */
+    width: 600px !important;
+    border-radius: 25px;
 }
 
-.card-img-top {
-    height: 250px;
-    border: 2px inset black;
-    border-radius: 5px;
-    margin: 0;
-}
-
-.card-title {
-    border: 2px inset gold;
-    border-radius: 5px;
-    background-color: black;
-    color: gold;
-}
-
-.card-text {
+.buttonLinks {
     background-color: black;
     border: 2px inset gold;
     border-radius: 5px;
     color: gold;
-    padding: 1px;
+    outline: none;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.buttonLinks:hover {
+    background-color: gold;
+    color: black;
+    border: 3px inset black;
 }
 
 .btn-primary {
@@ -184,6 +193,14 @@ label {
 
 .lead {
     padding: 2px;
+}
+
+.tech {
+    border: 5px double black;
+    border-radius: 25px;
+    background-color: gold;
+    padding-top: 10px;
+    font-family: 'Mukta', sans-serif;
 }
 
 #techSkills {

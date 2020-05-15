@@ -1,5 +1,8 @@
 $(document).ready(function() {
     $(".dropdown-toggle").dropdown();
+    $('.collapse').collapse({
+        toggle: false
+    });
     $("#submit").on("click", function() {
 
         var userInput = {
