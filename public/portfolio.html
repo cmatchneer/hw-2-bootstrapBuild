@@ -1,236 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Mukta&family=Teko:wght@500&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Mukta&family=Teko:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="javascript.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="row">
-
-        <div class="col-md-12">
-            <h1>My Projects</h1>
-        </div>
+      <div class="col-md-12">
+        <h1>My Projects</h1>
+      </div>
     </div>
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              The Links
-            </button>
-        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="index.html">About Me</a>
-            <div class="dropdown-divider"></div>
-            <!-- <a class="dropdown-item" href="contact.html">Contact Me</a>
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        The Links
+      </button>
+      <div
+        class="dropdown-menu dropdown-menu-left"
+        aria-labelledby="dropdownMenuButton"
+      >
+        <a class="dropdown-item" href="index.html">About Me</a>
+        <div class="dropdown-divider"></div>
+        <!-- <a class="dropdown-item" href="contact.html">Contact Me</a>
             <div class="dropdown-divider"></div> -->
-            <a class="dropdown-item" href="https://www.linkedin.com/in/chris-matchneer-89aa90107/" target="_blank">LinkedIn</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://github.com/cmatchneer" target="_blank">GitHub</a>
-        </div>
+        <a
+          class="dropdown-item"
+          href="https://www.linkedin.com/in/chris-matchneer-89aa90107/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <div class="dropdown-divider"></div>
+        <a
+          class="dropdown-item"
+          href="https://github.com/cmatchneer"
+          target="_blank"
+          >GitHub</a
+        >
+      </div>
     </div>
     <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-1">
-            <button id="portfolio1" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#project1" aria-expanded="false" aria-controls="collapseExample">
-             LOTR
-            </button>
-        </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-1">
-            <button class="btn btn-primary portfolio" type="button" data-toggle="collapse" data-target="#project2" aria-expanded="false" aria-controls="collapseExample">
-                Charlie
-             </button>
-        </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-1">
-            <button class="btn btn-primary portfolio" type="button" data-toggle="collapse" data-target="#project3" aria-expanded="false" aria-controls="collapseExample">
-                Bob's Burgers
-            </button>
-        </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-1">
-            <button class="btn btn-primary portfolio" type="button" data-toggle="collapse" data-target="#project4" aria-expanded="false" aria-controls="collapseExample">
-                Couch Potato
-            </button>
-        </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-1">
-            <button id="portfolio1" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#project5" aria-expanded="false" aria-controls="collapseExample">
-             Hangman
-            </button>
-        </div>
-
+      <div class="col-sm-2"></div>
+      <div class="col-sm-1">
+        <button
+          id="portfolio1"
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#project1"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          LOTR
+        </button>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-1">
+        <button
+          class="btn btn-primary portfolio"
+          type="button"
+          data-toggle="collapse"
+          data-target="#project2"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Charlie
+        </button>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-1">
+        <button
+          class="btn btn-primary portfolio"
+          type="button"
+          data-toggle="collapse"
+          data-target="#project3"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Bob's Burgers
+        </button>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-1">
+        <button
+          class="btn btn-primary portfolio"
+          type="button"
+          data-toggle="collapse"
+          data-target="#project4"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Couch Potato
+        </button>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-1">
+        <button
+          id="portfolio1"
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#project5"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Hangman
+        </button>
+      </div>
     </div>
 
     <div class="row">
-        <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
 
-        <div class="collapse" id="project1">
-            <div class="row">
-                <img class="portfolio-pics" src="lotr.jpg" alt="lotr">
-            </div>
-            <div class="card card-body">
-                <h3>LOTR</h3>
-                <p>The Fellowship of the Ring is broken. Only one is left uncorrupted by the ring. You must choose who that will be then battle the rest of the Fellowship so the ring can be destroyed. Fight your way past all your former friends and save
-                    Middle Earth all of our hopes are on you now. </p>
-                <div class="tech">
-                    <h6 class="techList">Technology</h6>
-                    <ul>
-                        <li>Jquery</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrape</li>
-                    </ul>
-                </div>
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <a href="https://github.com/cmatchneer/hw-4-fighttime" target="_blank" type="button" class="buttonLinks">GitHub</a>
-                    <div class="col-sm-3"></div>
-                    <a href="https://cmatchneer.github.io/hw-4-fighttime/" target="_blank" type="button" class="buttonLinks">Fight</a>
-                </div>
-            </div>
+      <div class="collapse" id="project1">
+        <div class="row">
+          <img class="portfolio-pics" src="lotr.jpg" alt="lotr" />
         </div>
+        <div class="card card-body">
+          <h3>LOTR</h3>
+          <p>
+            The Fellowship of the Ring is broken. Only one is left uncorrupted
+            by the ring. You must choose who that will be then battle the rest
+            of the Fellowship so the ring can be destroyed. Fight your way past
+            all your former friends and save Middle Earth all of our hopes are
+            on you now.
+          </p>
+          <div class="tech">
+            <h6 class="techList">Technology</h6>
+            <ul>
+              <li>Jquery</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrape</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <a
+              href="https://github.com/cmatchneer/hw-4-fighttime"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >GitHub</a
+            >
+            <div class="col-sm-3"></div>
+            <a
+              href="https://mighty-lowlands-08531.herokuapp.com/"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >Fight</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="row">
-        <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
 
-        <div class="collapse" id="project2">
-            <div class="row">
-                <img class="portfolio-pics" src="plane.jpg" alt="charlie">
-            </div>
-            <div class="card card-body">
-
-                <h3>Charlie</h3>
-                <p>Welcome to Charlie. If you have a trip you wish to plan then this is the app for you. This is the Alpha version with hardcoded flight data. Once you sign up and join the app you can search a flight and either wishlist it or purchase it.
-                    Once you buy a flight you can then add items to your packing list of items you want to bring on your trip. This was group project my main focus was the backend </p>
-                <div class="tech">
-                    <h6 class="techList">Technology</h6>
-                    <ul>
-                        <li>React/React Routes</li>
-                        <li>CSS/SASS</li>
-                        <li>Passport</li>
-                        <li>MySQL/Sequalize</li>
-                        <li>Node.js/Express.js</li>
-                        <li>Send Mail</li>
-                        <li>Date Picker</li>
-                        <li>Moment</li>
-                    </ul>
-                </div>
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <a href="https://github.com/kalipulk/flights" target="_blank" type="button" class="buttonLinks">GitHub</a>
-                    <div class="col-sm-3"></div>
-                    <a href=" https://boiling-falls-67050.herokuapp.com/" target="_blank" type="button" class="buttonLinks">Lets Fly</a>
-                </div>
-            </div>
+      <div class="collapse" id="project2">
+        <div class="row">
+          <img class="portfolio-pics" src="plane.jpg" alt="charlie" />
         </div>
+        <div class="card card-body">
+          <h3>Charlie</h3>
+          <p>
+            Welcome to Charlie. If you have a trip you wish to plan then this is
+            the app for you. This is the Alpha version with hardcoded flight
+            data. Once you sign up and join the app you can search a flight and
+            either wishlist it or purchase it. Once you buy a flight you can
+            then add items to your packing list of items you want to bring on
+            your trip. This was group project my main focus was the backend
+          </p>
+          <div class="tech">
+            <h6 class="techList">Technology</h6>
+            <ul>
+              <li>React/React Routes</li>
+              <li>CSS/SASS</li>
+              <li>Passport</li>
+              <li>MySQL/Sequalize</li>
+              <li>Node.js/Express.js</li>
+              <li>Send Mail</li>
+              <li>Date Picker</li>
+              <li>Moment</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <a
+              href="https://github.com/kalipulk/flights"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >GitHub</a
+            >
+            <div class="col-sm-3"></div>
+            <a
+              href=" https://boiling-falls-67050.herokuapp.com/"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >Lets Fly</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
-        <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
 
-        <div class="collapse" id="project3">
-            <div class="row">
-                <img class="portfolio-pics" src="store-front.jpg" alt="bob's burgers's">
-            </div>
-            <div class="card card-body">
-                <h3>Bob's Burger's</h3>
-                <p>Come meet our family let us meat you. Here we create the greatest burgers in our little town. Tell us what burger you would like to eat and we shall create it for you. Once you eat the burger we know you will love it and come back for
-                    more. This is a full stack app the first one I ever made enjoy </p>
-                <div class="tech">
-                    <h6 class="techList">Technology</h6>
-                    <ul>
-                        <li>Jquery</li>
-                        <li>CSS</li>
-                        <li>MySQL</li>
-                        <li>Node.js/Express.js</li>
-
-                    </ul>
-                </div>
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <a href="https://github.com/cmatchneer/bob-s_burgers" target="_blank" type="button" class="buttonLinks">GitHub</a>
-                    <div class="col-sm-3"></div>
-                    <a href=" https://serene-ravine-81530.herokuapp.com/" target="_blank" type="button" class="buttonLinks">Burger Time</a>
-                </div>
-            </div>
+      <div class="collapse" id="project3">
+        <div class="row">
+          <img
+            class="portfolio-pics"
+            src="store-front.jpg"
+            alt="bob's burgers's"
+          />
         </div>
+        <div class="card card-body">
+          <h3>Bob's Burger's</h3>
+          <p>
+            Come meet our family let us meat you. Here we create the greatest
+            burgers in our little town. Tell us what burger you would like to
+            eat and we shall create it for you. Once you eat the burger we know
+            you will love it and come back for more. This is a full stack app
+            the first one I ever made enjoy
+          </p>
+          <div class="tech">
+            <h6 class="techList">Technology</h6>
+            <ul>
+              <li>Jquery</li>
+              <li>CSS</li>
+              <li>MySQL</li>
+              <li>Node.js/Express.js</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <a
+              href="https://github.com/cmatchneer/bob-s_burgers"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >GitHub</a
+            >
+            <div class="col-sm-3"></div>
+            <a
+              href=" https://serene-ravine-81530.herokuapp.com/"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >Burger Time</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
-        <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
 
-        <div class="collapse" id="project4">
-            <div class="row">
-                <img class="portfolio-pics" src="couchpotatologo.png" alt="couch potato">
-            </div>
-            <div class="card card-body">
-                <h3>Couch Potato</h3>
-                <p>Are you sick and tired of going out and buying ingredients to cook with but you also are sick of the same old take out well do I have the app for you. Welcome to Couch Potato. Here you can search up recipes and see the ingredients. If
-                    you like it then we can ship it to your house and you can make it yourself. This app is the alpha version so no payment processing or anything like that. The search function along with user info data is stored along with past purchases.
-                    This was a group project my main focus was API access, the javascript functionality and making data appear on the screen.
-                </p>
-                <div class="tech">
-                    <h6 class="techList">Technology</h6>
-                    <ul>
-                        <li>Jquery</li>
-                        <li>CSS</li>
-                        <li>MySQL</li>
-                        <li>Node.js/Express.js</li>
-                        <li>Passport</li>
-                        <li>MySQL/Sequalize</li>
-                    </ul>
-                </div>
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <a href=" https://github.com/ErminaJoseph/CEK_Project2" target="_blank" type="button" class="buttonLinks">GitHub</a>
-                    <div class="col-sm-3"></div>
-                    <a href=" https://shielded-ocean-72920.herokuapp.com/" target="_blank" type="button" class="buttonLinks">Lets Cook</a>
-                </div>
-            </div>
+      <div class="collapse" id="project4">
+        <div class="row">
+          <img
+            class="portfolio-pics"
+            src="couchpotatologo.png"
+            alt="couch potato"
+          />
         </div>
+        <div class="card card-body">
+          <h3>Couch Potato</h3>
+          <p>
+            Are you sick and tired of going out and buying ingredients to cook
+            with but you also are sick of the same old take out well do I have
+            the app for you. Welcome to Couch Potato. Here you can search up
+            recipes and see the ingredients. If you like it then we can ship it
+            to your house and you can make it yourself. This app is the alpha
+            version so no payment processing or anything like that. The search
+            function along with user info data is stored along with past
+            purchases. This was a group project my main focus was API access,
+            the javascript functionality and making data appear on the screen.
+          </p>
+          <div class="tech">
+            <h6 class="techList">Technology</h6>
+            <ul>
+              <li>Jquery</li>
+              <li>CSS</li>
+              <li>MySQL</li>
+              <li>Node.js/Express.js</li>
+              <li>Passport</li>
+              <li>MySQL/Sequalize</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <a
+              href=" https://github.com/ErminaJoseph/CEK_Project2"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >GitHub</a
+            >
+            <div class="col-sm-3"></div>
+            <a
+              href=" https://shielded-ocean-72920.herokuapp.com/"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >Lets Cook</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
-        <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
 
-        <div class="collapse" id="project5">
-            <div class="row">
-                <img class="portfolio-pics" src="hangman.jpeg" alt="hangman">
-            </div>
-            <div class="card card-body">
-                <h3>Hangman</h3>
-                <p>This is a hangman game with 3 levels of diffculty that each have different words and tips. It also uses jCanvas to draw a hangman on the screen. I created all of this myself from scratch using some googling to help me deal with issues.
-                </p>
-                <div class="tech">
-                    <h6 class="techList">Technology</h6>
-                    <ul>
-                        <li>Jquery</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>Jcanvas</li>
-                        <li>Node/Express</li>
-                    </ul>
-                </div>
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <a href="https://github.com/cmatchneer/newhangman" target="_blank" type="button" class="buttonLinks">GitHub</a>
-                    <div class="col-sm-3"></div>
-                    <a href="https://secure-cove-76112.herokuapp.com/" target="_blank" type="button" class="buttonLinks">Lets Hang</a>
-                </div>
-            </div>
+      <div class="collapse" id="project5">
+        <div class="row">
+          <img class="portfolio-pics" src="hangman.jpeg" alt="hangman" />
         </div>
+        <div class="card card-body">
+          <h3>Hangman</h3>
+          <p>
+            This is a hangman game with 3 levels of diffculty that each have
+            different words and tips. It also uses jCanvas to draw a hangman on
+            the screen. I created all of this myself from scratch using some
+            googling to help me deal with issues.
+          </p>
+          <div class="tech">
+            <h6 class="techList">Technology</h6>
+            <ul>
+              <li>Jquery</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Jcanvas</li>
+              <li>Node/Express</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <a
+              href="https://github.com/cmatchneer/newhangman"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >GitHub</a
+            >
+            <div class="col-sm-3"></div>
+            <a
+              href="https://secure-cove-76112.herokuapp.com/"
+              target="_blank"
+              type="button"
+              class="buttonLinks"
+              >Lets Hang</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
-
-
-</body>
-
+  </body>
 </html>
